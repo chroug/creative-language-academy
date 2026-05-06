@@ -92,12 +92,12 @@ if (form) {
         note.style.color = "#c8553d";
         note.textContent =
           (data.errors && data.errors.map((er) => er.message).join(", ")) ||
-          "Une erreur est survenue. Merci de réessayer ou d'écrire directement à contact@creativelanguageacademy.fr.";
+          "Une erreur est survenue. Merci de réessayer ou d'écrire directement à creativelanguageacademy@gmail.com.";
       }
     } catch {
       note.style.color = "#c8553d";
       note.textContent =
-        "Connexion impossible. Merci de réessayer ou d'écrire directement à contact@creativelanguageacademy.fr.";
+        "Connexion impossible. Merci de réessayer ou d'écrire directement à creativelanguageacademy@gmail.com.";
     } finally {
       submitBtn.disabled = false;
       submitBtn.textContent = originalLabel;
